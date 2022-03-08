@@ -296,14 +296,24 @@ body .navbar .container .downloadstore .appstore span {
   border-radius: 15px;
 }
 
-.thirdSection .row .checkbox .d-flex {
+.thirdSection .row .checkbox p {
+  font-size: 17px;
+}
+
+.thirdSection .row .checkbox .check {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 10px;
+  padding-top: 15px;
 }
 
-.thirdSection .row .checkbox .d-fleximg {
-  width: 30px;
+.thirdSection .row .checkbox .check img {
+  width: 20px;
+}
+
+.thirdSection .row .checkbox .check span {
+  font-size: 15px;
 }
 
 .thirdSection .row .howitworks {

@@ -242,11 +242,18 @@ body {
       border-radius: 15px;
     }
     .checkbox {
-        .d-flex{
+        p{
+            font-size: 17px;
+        }
+        .check{
             align-items: center;
-
-            &img {
-            width: 30px;
+            gap: 10px;
+            padding-top: 15px;
+            img {
+            width: 20px;
+            }
+            span{
+                font-size: 15px;
             }
       }
     }
