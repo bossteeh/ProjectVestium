@@ -99,7 +99,82 @@ body .navbar .container .appstore span {
   padding: 50px;
 }
 
-.firstSection div:nth-child(2) img {
+.firstSection .row div:first-child .modeDressing {
+  background-color: #f8f0e380;
+  color: #F8F0E3;
+  padding: 2px 10px;
+  border-radius: 19px;
+}
+
+.firstSection .row div:first-child h2 {
+  color: #F8F0E3;
+  font-size: 3.6vw;
+  padding-top: 20px;
+}
+
+.firstSection .row div:first-child h2 span:first-child {
+  border: 1px solid #D65123;
+  padding: 3px 8px;
+  border-radius: 100%;
+}
+
+.firstSection .row div:first-child h2 span:nth-child(2) {
+  color: #D65123;
+}
+
+.firstSection .row div:first-child p {
+  color: #F8F0E3;
+  font-weight: 200;
+}
+
+.firstSection .row div:first-child .downloadstore {
+  gap: 30px;
+}
+
+.firstSection .row div:first-child .googleplay {
+  background-color: #F8F0E3;
+  border: 2px solid white;
+  color: #020636;
+  padding: 3px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.firstSection .row div:first-child .googleplay img {
+  width: 30px;
+}
+
+.firstSection .row div:first-child .googleplay span {
+  line-height: 1;
+}
+
+.firstSection .row div:first-child .appstore {
+  background-color: #D65123;
+  color: #F8F0E3;
+  padding: 3px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  border: 1px solid #020636;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.firstSection .row div:first-child .appstore img {
+  width: 20px;
+}
+
+.firstSection .row div:first-child .appstore span {
+  line-height: 1;
+  padding-left: 3px;
+}
+
+.firstSection .row div:nth-child(2) img {
   width: 400px;
 }
 /*# sourceMappingURL=style.css.map */
