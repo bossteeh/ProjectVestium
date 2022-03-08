@@ -1,1 +1,86 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  font-size: 12px;
+  margin: 0px;
+}
+
+body .navbar {
+  padding: 5px 30px;
+  background-color: #F8F0E3;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .navbar .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .navbar .container .collapse {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+}
+
+body .navbar .container .collapse ul li a {
+  color: #020636;
+}
+
+body .navbar .container .downloadstore {
+  gap: 30px;
+}
+
+body .navbar .container .downloadstore .googleplay {
+  background-color: #020636;
+  color: #F8F0E3;
+  padding: 3px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+body .navbar .container .downloadstore .googleplay img {
+  width: 30px;
+}
+
+body .navbar .container .downloadstore .googleplay span {
+  line-height: 1;
+}
+
+body .navbar .container .downloadstore .appstore {
+  background-color: #F8F0E3;
+  color: #020636;
+  padding: 3px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  border: 1px solid #020636;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+body .navbar .container .downloadstore .appstore img {
+  width: 30px;
+}
+
+body .navbar .container .downloadstore .appstore span {
+  line-height: 1;
+  padding-left: 3px;
+}
+/*# sourceMappingURL=style.css.map */
