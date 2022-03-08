@@ -449,4 +449,71 @@ body .navbar .container .downloadstore .appstore span {
   min-height: 500px;
   padding: 50px;
 }
+
+footer {
+  background-color: #020636;
+  min-height: 500px;
+  padding: 50px;
+}
+
+footer .row {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+footer .row .center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .row .center h3 {
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+footer .row .center p {
+  color: #F8F0E3;
+  line-height: 1.5;
+}
+
+footer span {
+  color: #F8F0E3;
+  width: 75%;
+  line-height: 2.3;
+}
+
+footer .socials {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+}
+
+footer h3 {
+  color: #F8F0E3;
+}
+
+footer .copyright {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .copyright p {
+  font-size: 15px;
+  color: #F8F0E3;
+}
 /*# sourceMappingURL=style.css.map */
