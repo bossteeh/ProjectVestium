@@ -38,39 +38,39 @@ body {
       .downloadstore {
         gap: 30px;
         display: none;
-      }
 
-      .googleplay {
-        background-color: $primaryColor;
-        color: $textColor;
-        padding: 3px 10px;
-        align-items: center;
-        border-radius: 8px;
-        font-size: 10px;
-        font-weight: 400;
+        .googleplay {
+          background-color: $primaryColor;
+          color: $textColor;
+          padding: 3px 10px;
+          align-items: center;
+          border-radius: 8px;
+          font-size: 10px;
+          font-weight: 400;
 
-        img {
-          width: 30px;
+          img {
+            width: 30px;
+          }
+          span {
+            line-height: 1;
+          }
         }
-        span {
-          line-height: 1;
-        }
-      }
-      .appstore {
-        background-color: $textColor;
-        color: $primaryColor;
-        padding: 3px 10px;
-        align-items: center;
-        border-radius: 8px;
-        border: 1px solid $primaryColor;
-        font-size: 10px;
-        font-weight: 400;
-        img {
-          width: 20px;
-        }
-        span {
-          line-height: 1;
-          padding-left: 3px;
+        .appstore {
+          background-color: $textColor;
+          color: $primaryColor;
+          padding: 3px 10px;
+          align-items: center;
+          border-radius: 8px;
+          border: 1px solid $primaryColor;
+          font-size: 10px;
+          font-weight: 400;
+          img {
+            width: 20px;
+          }
+          span {
+            line-height: 1;
+            padding-left: 3px;
+          }
         }
       }
     }
@@ -79,10 +79,12 @@ body {
 .firstSection {
   background-color: $primaryColor;
   padding: 50px;
-    overflow: hidden;
+  overflow: hidden;
+  min-height: 450px;
 
   .row {
     div:first-child {
+      align-items: center;
       .modeDressing {
         background-color: #f8f0e380;
         color: $textColor;
@@ -146,11 +148,85 @@ body {
         }
       }
     }
-
-    div:nth-child(2) {
+  }
+}
+.secondSection {
+  background-color: $textColor;
+  padding: 50px;
+  .row {
+    .iphoneimage {
+      position: relative;
       img {
-        width: 50vw;
+        z-index: 0;
+        position: absolute;
+        top: -109px;
+      }
+    }
+    .secondsectionrow {
+      align-items: center;
+      justify-content: center;
+
+      .aboutUs {
+        display: inline-flex;
+        gap: 5px;
+        padding-top: 40px;
+        h3{
+            font-size: 50px;
+        }
+      }
+      p{
+          line-height: 1.7;
+          font-size: 16px;
+          span{
+              font-weight: bold;
+          }
+      }
+      .downloadstore {
+        gap: 30px;
+      }
+
+      .googleplay {
+        background-color: $secondaryColor;
+        color: $primaryColor;
+        padding: 2px 15px;
+        align-items: center;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 400;
+        gap: 4px;
+        
+
+        img {
+          width: 50px;
+        }
+        span {
+          line-height: 1;
+        }
+      }
+      .appstore {
+        background-color: $primaryColor;
+        padding-top: 10px;
+        color: $textColor;
+        padding: 5px 20px;
+        align-items: center;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 400;
+        gap: 10px;
+
+        img {
+          width: 35px;
+        }
+        span {
+          line-height: 1;
+        }
       }
     }
   }
+}
+@media screen and (max-width:768px) {
+    .iphoneimage{
+        display: none;
+    }
+    
 }

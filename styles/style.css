@@ -52,7 +52,7 @@ body .navbar .container .downloadstore {
   display: none;
 }
 
-body .navbar .container .googleplay {
+body .navbar .container .downloadstore .googleplay {
   background-color: #020636;
   color: #F8F0E3;
   padding: 3px 10px;
@@ -64,15 +64,15 @@ body .navbar .container .googleplay {
   font-weight: 400;
 }
 
-body .navbar .container .googleplay img {
+body .navbar .container .downloadstore .googleplay img {
   width: 30px;
 }
 
-body .navbar .container .googleplay span {
+body .navbar .container .downloadstore .googleplay span {
   line-height: 1;
 }
 
-body .navbar .container .appstore {
+body .navbar .container .downloadstore .appstore {
   background-color: #F8F0E3;
   color: #020636;
   padding: 3px 10px;
@@ -85,11 +85,11 @@ body .navbar .container .appstore {
   font-weight: 400;
 }
 
-body .navbar .container .appstore img {
+body .navbar .container .downloadstore .appstore img {
   width: 20px;
 }
 
-body .navbar .container .appstore span {
+body .navbar .container .downloadstore .appstore span {
   line-height: 1;
   padding-left: 3px;
 }
@@ -98,6 +98,13 @@ body .navbar .container .appstore span {
   background-color: #020636;
   padding: 50px;
   overflow: hidden;
+  min-height: 450px;
+}
+
+.firstSection .row div:first-child {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .firstSection .row div:first-child .modeDressing {
@@ -176,7 +183,101 @@ body .navbar .container .appstore span {
   padding-left: 3px;
 }
 
-.firstSection .row div:nth-child(2) img {
-  width: 50vw;
+.secondSection {
+  background-color: #F8F0E3;
+  padding: 50px;
+}
+
+.secondSection .row .iphoneimage {
+  position: relative;
+}
+
+.secondSection .row .iphoneimage img {
+  z-index: 0;
+  position: absolute;
+  top: -109px;
+}
+
+.secondSection .row .secondsectionrow {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.secondSection .row .secondsectionrow .aboutUs {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 5px;
+  padding-top: 40px;
+}
+
+.secondSection .row .secondsectionrow .aboutUs h3 {
+  font-size: 50px;
+}
+
+.secondSection .row .secondsectionrow p {
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.secondSection .row .secondsectionrow p span {
+  font-weight: bold;
+}
+
+.secondSection .row .secondsectionrow .downloadstore {
+  gap: 30px;
+}
+
+.secondSection .row .secondsectionrow .googleplay {
+  background-color: #D65123;
+  color: #020636;
+  padding: 2px 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  gap: 4px;
+}
+
+.secondSection .row .secondsectionrow .googleplay img {
+  width: 50px;
+}
+
+.secondSection .row .secondsectionrow .googleplay span {
+  line-height: 1;
+}
+
+.secondSection .row .secondsectionrow .appstore {
+  background-color: #020636;
+  padding-top: 10px;
+  color: #F8F0E3;
+  padding: 5px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  gap: 10px;
+}
+
+.secondSection .row .secondsectionrow .appstore img {
+  width: 35px;
+}
+
+.secondSection .row .secondsectionrow .appstore span {
+  line-height: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .iphoneimage {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
