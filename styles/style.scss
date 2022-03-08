@@ -242,8 +242,12 @@ body {
       border-radius: 15px;
     }
     .checkbox {
-      img {
-        padding: 10px;
+        .d-flex{
+            align-items: center;
+
+            &img {
+            width: 30px;
+            }
       }
     }
     .howitworks {
