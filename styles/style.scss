@@ -79,7 +79,7 @@ body {
 .firstSection {
   background-color: $primaryColor;
   padding: 50px;
-  //   overflow: hidden;
+    overflow: hidden;
 
   .row {
     div:first-child {
@@ -88,6 +88,7 @@ body {
         color: $textColor;
         padding: 2px 10px;
         border-radius: 19px;
+        font-size: 10px;
       }
       h2 {
         color: $textColor;
@@ -148,7 +149,7 @@ body {
 
     div:nth-child(2) {
       img {
-        width: 400px;
+        width: 50vw;
       }
     }
   }
