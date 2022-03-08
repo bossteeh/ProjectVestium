@@ -19,6 +19,9 @@ body .navbar {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 body .navbar .container {
@@ -99,6 +102,7 @@ body .navbar .container .downloadstore .appstore span {
   padding: 50px;
   overflow: hidden;
   min-height: 450px;
+  padding-top: 150px;
 }
 
 .firstSection .row div:first-child {
