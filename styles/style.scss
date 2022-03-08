@@ -399,15 +399,18 @@ footer {
     .footeritems {
       display: none;
     }
-    .center {
-      display: block;
+    .row{
+        .center {
+            display: block;
+            justify-content: flex-start;
+        }
     }
 
     .copyright {
       justify-content: space-between;
       display: flex;
       p {
-        font-size: 15px;
+        font-size: 11px;
         color: $textColor;
       }
     }

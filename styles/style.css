@@ -536,8 +536,11 @@ footer .copyright p {
   footer .footeritems {
     display: none;
   }
-  footer .center {
+  footer .row .center {
     display: block;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   footer .copyright {
     -webkit-box-pack: justify;
@@ -548,7 +551,7 @@ footer .copyright p {
     display: flex;
   }
   footer .copyright p {
-    font-size: 15px;
+    font-size: 11px;
     color: #F8F0E3;
   }
 }
