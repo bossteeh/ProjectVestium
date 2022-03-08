@@ -336,52 +336,81 @@ body {
     }
   }
 }
-.fifthSection{
-    background-color: $textColor;
-    min-height: 500px;
-    padding: 50px;
-
+.fifthSection {
+  background-color: $textColor;
+  min-height: 500px;
+  padding: 50px;
 }
-footer{
+footer {
+  background-color: $primaryColor;
+  min-height: 500px;
+  padding: 50px;
+  .row {
+    align-items: baseline;
+    .center {
+      justify-content: center;
+      display: grid;
+      align-items: center;
+      h3 {
+        padding-bottom: 15px;
+        font-size: 30px;
+      }
+      p {
+        color: $textColor;
+        line-height: 1.5;
+      }
+    }
+  }
+  span {
+    color: $textColor;
+    width: 75%;
+    line-height: 2.3;
+  }
+  .socials {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    img {
+      width: 30px;
+    }
+  }
+  h3 {
+    color: $textColor;
+  }
+
+  .copyright {
+    justify-content: space-between;
+    display: flex;
+    p {
+      font-size: 15px;
+      color: $textColor;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
     background-color: $primaryColor;
     min-height: 500px;
     padding: 50px;
-    .row{
-        align-items:baseline;
-        .center{
-            justify-content: center;
-            display: grid;
-            align-items: center;
-            h3{
-                padding-bottom: 15px;
-                font-size: 30px;
-            }
-            p{
-                color: $textColor;
-                line-height: 1.5;
-            }
-        }
+    .socials {
+      display: flex;
+      width: 80%;
     }
-    span{
+    .footeritems {
+      display: none;
+    }
+    .center {
+      display: block;
+    }
+
+    .copyright {
+      justify-content: space-between;
+      display: flex;
+      p {
+        font-size: 15px;
         color: $textColor;
-        width: 75%;
-        line-height: 2.3;
+      }
     }
-    .socials{
-        justify-content: space-between;
-        display: flex;
-        width: 80%;
-    }
-    h3{
-        color: $textColor;
-    }
-    
-    .copyright{
-        justify-content: space-between;
-        display: flex;
-        p{
-            font-size: 15px;
-            color: $textColor;
-        }
-    }
+  }
 }
+

@@ -496,7 +496,11 @@ footer .socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
+  width: 100%;
+}
+
+footer .socials img {
+  width: 30px;
 }
 
 footer h3 {
@@ -515,5 +519,37 @@ footer .copyright {
 footer .copyright p {
   font-size: 15px;
   color: #F8F0E3;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    background-color: #020636;
+    min-height: 500px;
+    padding: 50px;
+  }
+  footer .socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+  }
+  footer .footeritems {
+    display: none;
+  }
+  footer .center {
+    display: block;
+  }
+  footer .copyright {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .copyright p {
+    font-size: 15px;
+    color: #F8F0E3;
+  }
 }
 /*# sourceMappingURL=style.css.map */
