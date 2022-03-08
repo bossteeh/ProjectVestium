@@ -194,6 +194,8 @@ body {
         font-size: 14px;
         font-weight: 400;
         gap: 4px;
+        display: flex;
+        justify-content: center;
 
         img {
           width: 50px;
@@ -212,6 +214,8 @@ body {
         font-size: 14px;
         font-weight: 400;
         gap: 10px;
+        display: flex;
+        justify-content: center;
 
         img {
           width: 35px;

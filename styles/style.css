@@ -243,6 +243,12 @@ body .navbar .container .downloadstore .appstore span {
   font-size: 14px;
   font-weight: 400;
   gap: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .secondSection .row .secondsectionrow .googleplay img {
@@ -265,6 +271,12 @@ body .navbar .container .downloadstore .appstore span {
   font-size: 14px;
   font-weight: 400;
   gap: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .secondSection .row .secondsectionrow .appstore img {
