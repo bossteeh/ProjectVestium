@@ -25,7 +25,7 @@ body {
         justify-content: center;
         font-weight: 500;
         .navbar-nav {
-          gap: 30px;
+          gap: 15px;
         }
         ul li a {
           color: $primaryColor;
@@ -37,40 +37,52 @@ body {
 
       .downloadstore {
         gap: 30px;
-        .googleplay {
-          background-color: $primaryColor;
-          color: $textColor;
-          padding: 3px 10px;
-          align-items: center;
-          border-radius: 8px;
-          font-size: 10px;
-          font-weight: 400;
+        display: none;
+      }
 
-          img {
-            width: 30px;
-          }
-          span {
-            line-height: 1;
-          }
+      .googleplay {
+        background-color: $primaryColor;
+        color: $textColor;
+        padding: 3px 10px;
+        align-items: center;
+        border-radius: 8px;
+        font-size: 10px;
+        font-weight: 400;
+
+        img {
+          width: 30px;
         }
-        .appstore {
-          background-color: $textColor;
-          color: $primaryColor;
-          padding: 3px 10px;
-          align-items: center;
-          border-radius: 8px;
-          border: 1px solid $primaryColor;
-          font-size: 10px;
-          font-weight: 400;
-          img {
-            width: 20px;
-          }
-          span {
-            line-height: 1;
-            padding-left: 3px;
-          }
+        span {
+          line-height: 1;
         }
       }
+      .appstore {
+        background-color: $textColor;
+        color: $primaryColor;
+        padding: 3px 10px;
+        align-items: center;
+        border-radius: 8px;
+        border: 1px solid $primaryColor;
+        font-size: 10px;
+        font-weight: 400;
+        img {
+          width: 20px;
+        }
+        span {
+          line-height: 1;
+          padding-left: 3px;
+        }
+      }
+    }
+  }
+}
+.firstSection {
+  background-color: $primaryColor;
+  padding: 50px;
+  //   overflow: hidden;
+  div:nth-child(2) {
+    img {
+      width: 400px;
     }
   }
 }
