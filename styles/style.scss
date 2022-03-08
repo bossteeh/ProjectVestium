@@ -1,72 +1,76 @@
-@import '../assets/variables';
-@import '../assets/colors';
-
+@import "../assets/variables";
+@import "../assets/colors";
 
 * {
-    border: none;
-    outline: none;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: $myFont;
-    font-size: 12px;
-    margin: 0px;
-    .navbar{
-        padding: 5px 30px;
-        background-color: $textColor;
-        justify-content: space-between;
+  font-family: $myFont;
+  font-size: 12px;
+  margin: 0px;
+  .navbar {
+    padding: 5px 30px;
+    background-color: $textColor;
+    justify-content: space-between;
 
-        .container{
-            align-items: center;
-            .collapse{
-                justify-content: center;
-                font-weight: bold;
-              ul li a{
-    
-                color: $primaryColor;
-            }}
-    
-            .downloadstore{
-                gap: 30px;
-                .googleplay{
-                    background-color: $primaryColor;
-                    color: $textColor;
-                    padding: 3px 10px;
-                    align-items: center;
-                    border-radius: 8px;
-                    font-size: 10px;
-                    font-weight: bold;
-    
-                    img{
-                        width: 30px;
-                    }
-                    span{
-                        line-height: 1;
-                    }
-                }
-                .appstore{
-                    background-color: $textColor;
-                    color: $primaryColor;
-                    padding: 3px 10px;
-                    align-items: center;
-                    border-radius: 8px;
-                    border: 1px solid $primaryColor;
-                    font-size: 10px;
-                    font-weight: bold;
-                    img{
-                        width: 30px;
-                    }
-                    span{
-                        line-height: 1;
-                        padding-left: 3px;
-                    }
-                }
-                
-            }
+    .container {
+      align-items: center;
+      .collapse {
+        gap: 50px;
+        justify-content: center;
+        font-weight: 500;
+        .navbar-nav {
+          gap: 30px;
         }
+        ul li a {
+          color: $primaryColor;
+        }
+      }
+      .nav-item .active {
+        color: $secondaryColor;
+      }
 
+      .downloadstore {
+        gap: 30px;
+        .googleplay {
+          background-color: $primaryColor;
+          color: $textColor;
+          padding: 3px 10px;
+          align-items: center;
+          border-radius: 8px;
+          font-size: 10px;
+          font-weight: 400;
+
+          img {
+            width: 30px;
+          }
+          span {
+            line-height: 1;
+          }
         }
+        .appstore {
+          background-color: $textColor;
+          color: $primaryColor;
+          padding: 3px 10px;
+          align-items: center;
+          border-radius: 8px;
+          border: 1px solid $primaryColor;
+          font-size: 10px;
+          font-weight: 400;
+          img {
+            width: 20px;
+          }
+          span {
+            line-height: 1;
+            padding-left: 3px;
+          }
+        }
+      }
+    }
+  }
 }
