@@ -259,24 +259,40 @@ body {
   min-height: 500px;
   background-color: $primaryColor;
   padding: 50px;
-  h2{
+  h2 {
     align-items: center;
     display: flex;
     justify-content: center;
     color: $textColor;
-    font-size: 50px;
+    font-size: 40px;
   }
- p {
+  p {
     display: flex;
     justify-content: center;
     color: $textColor;
     align-items: center;
-    font-size: 20px;
+    font-size: 17px;
   }
-  .iphone{
+  .iphone {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  @media screen and (max-width: 768px) {
+    .iphone {
+      display: none;
+    }
+    h2 {
+      font-size: 23px;
       display: flex;
-      align-content: center;
+      align-items: center;
+    }
+    p {
+      font-size: 11px;
+      display: flex;
       justify-content: center;
+      align-items: center;
+    }
   }
   .downloadstore {
     gap: 30px;
@@ -285,11 +301,13 @@ body {
     .googleplay {
       background-color: $secondaryColor;
       color: $textColor;
-      padding: 3px 10px;
+      padding: 8px 20px;
       align-items: center;
       border-radius: 8px;
-      font-size: 10px;
+      font-size: 12px;
       font-weight: 400;
+      display: flex;
+      justify-content: center;
       img {
         width: 30px;
       }
@@ -299,20 +317,28 @@ body {
     }
     .appstore {
       background-color: $textColor;
-      padding: 3px 10px;
+      padding: 8px 20px;
       align-items: center;
       border-radius: 8px;
       border: 1px solid $primaryColor;
-      font-size: 10px;
+      font-size: 12px;
       font-weight: 400;
+      display: flex;
+      justify-content: center;
       img {
         width: 20px;
       }
       span {
-          color: $primaryColor;
+        color: $primaryColor;
         line-height: 1;
         padding-left: 3px;
       }
     }
   }
+}
+.fifthSection{
+    background-color: $textColor;
+    min-height: 500px;
+    padding: 50px;
+
 }
