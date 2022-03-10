@@ -331,10 +331,15 @@ body .navbar .container .downloadstore .appstore span {
 
 .thirdSection .row .checkbox .check span {
   font-size: 15px;
+  padding-left: 10px;
 }
 
 .thirdSection .row .howitworks {
   gap: 10px;
+}
+
+.thirdSection .row .howitworks h3 {
+  padding-left: 10px;
 }
 
 .fourthSection {

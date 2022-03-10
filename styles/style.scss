@@ -251,26 +251,31 @@ body {
       border-radius: 15px;
     }
     .checkbox {
-        p{
-            font-size: 17px;
+      p {
+        font-size: 17px;
+      }
+      .check {
+        align-items: center;
+        gap: 10px;
+        padding-top: 15px;
+        img {
+          width: 20px;
         }
-        .check{
-            align-items: center;
-            gap: 10px;
-            padding-top: 15px;
-            img {
-            width: 20px;
-            }
-            span{
-                font-size: 15px;
-            }
+        span {
+          font-size: 15px;
+          padding-left: 10px;
+        }
       }
     }
     .howitworks {
       gap: 10px;
+      h3 {
+        padding-left: 10px;
+      }
     }
   }
 }
+
 .fourthSection {
   background-image: url(/images/section4bg.svg);
   background-position: -54px -223px;
@@ -419,11 +424,11 @@ footer {
     .footeritems {
       display: none;
     }
-    .row{
-        .center {
-            display: block;
-            justify-content: flex-start;
-        }
+    .row {
+      .center {
+        display: block;
+        justify-content: flex-start;
+      }
     }
 
     .copyright {
@@ -436,4 +441,3 @@ footer {
     }
   }
 }
-
